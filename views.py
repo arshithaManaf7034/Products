@@ -8,7 +8,7 @@ predict_product_price
 
 def add_product(request):
 
-```
+
 if request.method == "POST":
 
     form = ProductForm(request.POST)
@@ -40,7 +40,7 @@ return render(
     "add_product.html",
     {"form": form}
 )
-```
+
 
 def success(request):
 return render(request, "success.html")
