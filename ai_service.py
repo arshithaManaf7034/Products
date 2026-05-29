@@ -10,7 +10,7 @@ try:
 prompt = f"""
 Generate a professional e-commerce product description.
 
-```
+
     Product Name: {name}
     Category: {category}
 
@@ -32,14 +32,13 @@ Generate a professional e-commerce product description.
 
 except Exception:
     return f"{name} is a quality product in the {category} category."
-```
 
 def predict_product_price(name, category):
 try:
 prompt = f"""
 You are an e-commerce pricing expert.
 
-```
+
     Product Name: {name}
     Category: {category}
 
@@ -64,4 +63,4 @@ You are an e-commerce pricing expert.
 
 except Exception:
     return 99.99
-```
+
